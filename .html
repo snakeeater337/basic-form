@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A title</title>
+</head>
+<body>
+  <div>
+    <form action=""> <!--Here we can send the following data to a specific file-->
+      <div style="float: left;padding-right:10px ;">
+        <label for="title" style="font-weight: bold;">Title:</label><span style="color: red;">*</span><br>
+        <input type="text" name="title" id="title" required value="Astronomy for poets" style="width: 300px;">
+      </div>
+
+      <div style="float: left;padding-right:10px ;">
+        <label for="shorttitle" style="font-weight: bold;">Short Title:</label><span style="color: red;">*</span><br>
+        <input type="text" name="shorttitle" id="shorttitle" required value="Astr. for Poets"> <!--Placeholder?-->
+      </div>
+
+      <div style="float: left;padding-right:10px ;">
+        <label for="subj" style="font-weight: bold;">Subj.:</label><br>
+        <p style="margin-top: 0px;">BLST</p>
+      </div>
+
+      <div style="float: left;padding-right:10px ;">
+        <label for="num" style="font-weight: bold;">Num.:</label><br>
+        <input type="text" name="num." id="num"  value="10" style="width: 30px;">
+      </div>
+
+      <div style="float: left;padding-right:10px ; ">
+        <label for="section" style="font-weight: bold;">Section:</label><br>
+        <input type="text" name="section" id="section"  value="01" style="width: 30px;">
+      </div>
+
+      <div style="float: left;padding-right:10px ; ">
+        <label for="Year" style="font-weight: bold;">Year:</label><br>
+        <p style="margin-top: 0px;">0910</p>
+      </div>
+      
+      
+    </form>
+  </div>
+  <!--2nd form-->
+  <!--1st div-->
+  <br>
+  <br>
+  <br>
+  <div style=" float: left;border-top: 2px solid; border-color: #DBDADA;border-bottom: 2px solid; border-color: #DBDADA; background-color:#F0EDED; ">
+    <form action="">
+    <div style="float: left; background-color: #F0EDED;">
+
+      <div style="float: left;padding-right:10px ;">
+        <input type="checkbox" name="enrollmenet check" id="Enrollment limit">
+        <label for="Enrollment limit">Enrollment limit</label>
+      </div>
+
+      <div style="float: left;padding-right:10px ;">
+        <label for="num2" style="font-weight: bold;">Num.:</label><br>
+        <input type="text" id="num2" name="num of enrollment"  style="width: 25px; ">
+      </div>
+
+      <div style="float: left;padding-right:10px ;">
+        <label for="Rationale1" style="font-weight: bold;padding-top: 5px;">Rationale:</label><br>
+        <input type="text" id="Rationale1" name="rationale 1st" style="width: 300px;margin-bottom: 5px; ">
+      </div>
+
+    </div>
+    <!--2nd div-->
+    <br>
+    <div style="border-top: 2px solid;border-color: #DBDADA;background-color:#ECE7E7;float: left;">
+      
+      <div style="float: left;padding-right:60px;">
+        <input type="checkbox" id="Consent required">
+        <label for="Consent required" name="Consent required check">Consent required</label>
+      </div>
+      
+      <div style="float: left;padding-right:14px ;">
+        <label for="Rationale2" style="font-weight: bold;padding-top: 5px;">Rationale:</label><br>
+        <input type="text" id="Rationale2" name="rationale2nd" style="width: 296px;margin-bottom: 5px; ">
+      </div>
+
+    </div>
+    <!--3rd div-->
+    <br>
+    <div style="float: left;background-color:#F0EDED; border-top: 2px solid;border-color: #DBDADA;">
+      
+      <div style="float: left; padding-right: 10px;">
+      <input type="checkbox" id="limitclasslevel" name="limitclasslevel check">
+      <label for="limitclasslevel">Limit class level</label>
+      </div>
+
+      <div style="float: left;">
+        <label for="code" style="font-weight:bold">Code:</label><br>
+        <input type="text" style="width: 25px;" id="code" name="code">
+      </div>
+
+      <div style="float: left;padding-left:15px ;padding-right: 13px;">
+        <label for="Rationale3" style="font-weight: bold;padding-top: 5px;">Rationale:</label><br>
+        <input type="text" id="Rationale3" name="Rationale3rd"  style="width: 296px;margin-bottom: 5px; ">
+      </div>
+
+      <br>
+      
+      <div style="float: left;padding-left: 195px;">
+        <label for="howto"style="font-weight:bold;padding-top: 5px;">How to handle over-enrollment:</label>
+        <br>
+        <input type="text" id="howto"style="width: 296px;margin-bottom: 5px;" name="how to handle over-enrollment">
+      </div>
+
+    </div>
+    <!--4th div-->
+    <br>
+    <div style="border-top: 2px solid;border-color: #DBDADA;background-color:#ECE7E7;float: left;padding-right: 13px;">
+      
+      <div style="float: left;">
+        <input type="checkbox" id="Prerequisite" name="Prerequisite check">
+        <label for="Prerequisite">Prerequisite</label>
+      
+      </div>
+      <div style="float: left; padding-left: 95px;">
+        <label for="rationale4" style="font-weight: bold;padding-top: 5px;">Rationale:</label>
+        <br>
+        <input type="text" name="rationale4th" id="rationale4" style="width:296px;margin-bottom: 5px;">
+      </div>
+
+      <br>
+
+      <div style="float: left;padding-left: 195px;">
+        <label for="Rrequired Prereqs." style="font-weight: bold;padding-top: 5px;">Rrequired Prereqs. (major,course):</label><br>
+        <input type="text" id="Rrequired Prereqs." name="Rrequired Prereqs."  style="width: 296px;margin-bottom: 5px; ">
+      
+      </div>
+
+      <br>
+
+      <div style="float: left;padding-left: 195px;">
+        <label for="Recommendedprereqs" style="font-weight: bold;padding-top: 5px;">Recommended Prereqs:</label><br>
+        <input type="text" id="Recommendedprereqs" name="Recommendedprereqs"  style="width: 296px;margin-bottom: 5px; ">
+      
+      </div>
+
+    </div>
+    
+
+    </form>
+  </div>
+  <!--3rd form-->
+  <form action="">
+  <div style="float: left; border: 2px solid; border-color: #DBDADA; background-color:#F0EDED; padding-bottom: 70px;">
+    
+    <div style="padding: 5px;">
+      <label for="classmeeting" style="font-weight: bold;">Class <br> Meetings/Week:</label><br>
+      <select name="classmeeting" id="classmeeting" size="1">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      </select>  
+    </div>
+
+  <div style="padding: 5px;">
+    <label for="classshours" style="font-weight: bold;">Class Hours/Week:</label><br>
+    <select name="classshours" id="classshours" size="1">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select> 
+  </div>
+
+  <div style="padding: 5px;">
+    <label for="semester" style="font-weight: bold;">Semester(s) Offered:</label> <br>
+    <select name="semester" id="semester" size="1">
+      <option value="None">-None-</option>
+      <option value="2022/23">2022/23</option>
+      <option value="2023/24">2023/24</option>
+    </select> 
+  </div>
+
+  <div style="padding: 5px;">
+    <input type="checkbox" id="incl" name="Incl. semester">
+    <label for="incl">Incl. semester in prereqs.</label>
+  </div>
+
+  <div style="padding: 5px;">
+    <input type="checkbox"id="offered" name="Offered only once">
+    <label for="offered">Offered only once</label>
+  </div>
+
+  <div style="padding: 5px;">
+    <input type="checkbox" id="incl2" name="incl2">
+    <label for="incl2">Incl. in printed catalog</label>
+  </div>
+  </div>
+</form>
+<!--4th form-->
+<form action="">
+  <div style="float: left;border: 2px solid; border-color: #DBDADA; background-color:#F0EDED;  border-left: 0px; padding-right: 10px;padding-bottom:47px; ">
+    <p style="padding: 4px; font-weight: bold;  margin-top: 0px; margin-bottom: 0px;">Keywords:</p>
+    <div style="padding: 4px;">
+      <input type="checkbox" id="science" name="science" >
+      <label for="science" style="padding: 5px;">Science for non-majors</label>
+    </div>
+
+    <div style="padding: 4px;">
+      <input type="checkbox" id="fine" name="fine">
+      <label for="fine" style="padding: 5px; padding-top: 20px;">Fine arts for non-majors</label>
+    </div>
+
+    <div style="padding: 4px;">
+      <input type="checkbox" id="lab" name="lab">
+      <label for="lab" style="padding: 5px; padding-top: 20px;">Lab sciencee course</label>
+    </div>
+
+    <div style="padding: 4px;">
+      <input type="checkbox" id="artistic" name="artistic">
+      <label for="artistic" style="padding: 5px; padding-top: 20px;">Artistic practice</label>
+    </div>
+
+    <div style="padding: 4px;">
+      <input type="checkbox" id="foreign" name="foreign">
+      <label for="foreign" style="padding: 5px; padding-top: 20px;text-align:left;">Foreign language/culture <br> taught in English</label>
+    </div>
+
+    <div style="padding: 4px;">
+      <input type="checkbox" id="community" name="community">
+      <label for="community" style="padding: 5px; padding-top: 20px;">Community based learning</label>
+    </div>
+
+    <div style="padding: 4px;">
+      <input type="checkbox" id="writing1" name="writing1">
+      <label for="writing1" style="padding: 5px; padding-top: 20px;">Writing attentive</label>
+    </div>
+    <div style="padding: 4px;">
+      <input type="checkbox" id="writing2" name="writing2">
+      <label for="writing2" style="padding: 5px; padding-top: 20px;">Writing intensive</label>
+    </div>
+
+  </div>
+</form>
+<!--5th form-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<form action="">
+<div style=" float: left;">
+  <div style="padding-right: 10px;">
+    <p style="font-weight: bold;margin: 0px;padding-bottom: 5px;">Approvals:</p> 
+    <div style="padding: 5px;">
+      <input type="checkbox" id="cep" name="cep check">
+      <label for="cep">CEP</label>
+    </div>
+
+    <div style="padding: 5px;">
+      <input type="checkbox" id="commitee" name="Committee check">
+      <label for="commitee">Committee of Six</label>
+    </div>
+
+    <div style="padding: 5px;">
+      <input type="checkbox" id="faculty" name="Faculty check">
+      <label for="faculty">Faculty</label>
+    </div>
+  </div>
+  
+</div>
+<!--2nd div-->
+<div style="float: left;">
+  <p style="font-weight: bold; margin: 0px;padding-bottom: 5px;">Date:</p>
+  
+  <div style="border-top: 2px solid; border-color: #DBDADA; background-color: #F0EDED;padding-left: 5px;">
+    <label for="1stDate" style="padding-right: 20px;padding-top: 10px;">gg</label>
+    <input type="text" id="1stDate" name="1stDate"  style="margin-top: 3px;margin-bottom:3px ;">
+  </div>
+
+  <div style="border-top: 2px solid; border-color: #DBDADA; background-color: #ECE7E7;padding-left: 5px;">
+    <label for="2ndDate" style="padding-right: 20px;padding-top: 10px;">gg</label>
+    <input type="text" id="2ndDate" name="2ndDate"  style="margin-top: 3px;margin-bottom:3px ;">
+  </div>
+
+  <div style="border-top: 2px solid;border-bottom: 2px solid; border-color: #DBDADA; background-color: #F0EDED;padding-right: 20px; padding-left: 5px;">
+    <label for="3rdDate" style="padding-right: 20px;padding-top: 10px;">gg</label>
+    <input type="text"id="3rdDate" name="3rdDate" style="margin-top: 3px;margin-bottom:3px ;">
+  </div>
+</div>
+<!--3rd div-->
+<div style="float: left;margin-left: 10px;">
+  <p style="font-weight: bold; margin: 0px;padding-bottom: 5px;">Comment:</p>
+  
+  <div style="border-top: 2px solid; border-color: #DBDADA; background-color: #F0EDED;padding-left: 5px;">
+    <label for="1stComment" style="padding-right: 20px;padding-top: 10px;">gg</label>
+    <input type="text" id="1stComment" name="1stComment" style="margin-top: 3px;margin-bottom:3px ;width: 350px;">
+  </div>
+
+  <div style="border-top: 2px solid; border-color: #DBDADA; background-color: #ECE7E7;padding-left: 5px;">
+    <label for="2ndComment" style="padding-right: 20px;padding-top: 10px;">gg</label>
+    <input type="text"  id="2ndComment" name="2ndComment" style="margin-top: 3px;margin-bottom:3px ;width: 350px;">
+  </div>
+
+  <div style="border-top: 2px solid;border-bottom: 2px solid; border-color: #DBDADA; background-color: #F0EDED;padding-right: 20px; padding-left: 5px;">
+    <label for="3rdComment" style="padding-right: 20px;padding-top: 10px;">gg</label>
+    <input type="text" id="3rdComment" name="3rdComment" style="margin-top: 3px;margin-bottom:3px ;width: 350px;">
+  </div>
+  
+</div>
+</form>
+</body>
+</html>
